@@ -68,7 +68,7 @@ class Login extends Component {
                 <br/>
                 <div className="GoogleButton">
                 <GoogleLogin
-                  clientId="857159532308-v4ufrn5vu3l159u0n08crut88m19ok5j.apps.googleusercontent.com"
+                  clientId="857159532308-v4ufrn5vu3l159u0n08crut88m19ok5j.apps.googleusercontent.com" //Mi id de google puede tardar dias en verificarse DiegoBtts 429844190948-2fhg5pee699sl84k03rdf7ls5g2fge05.apps.googleusercontent.com
                   autoLoad={ false }
                   onSuccess={ this.responseGoogle }
                   onFailure={ this.onFailure }
